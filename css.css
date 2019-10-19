@@ -1,0 +1,151 @@
+body {
+  margin: 0px;
+}
+h1 {
+  margin: 10px;
+  font-family: didot, serif;
+  font-size: 4.62em;
+}
+h2 {
+  margin: 10px, auto 10px auto;
+  font-family: didot, sans-serif;
+  font-size: 2.5em;
+}
+h3 {
+  margin: 60px auto auto auto;
+  font-family: didot, sans-serif;
+  font-size: 25px;
+}
+p {
+  margin: 3px;
+}
+/* remeber to take out the borders */
+.top_section {
+  background-color: #ffcbcb;
+  /*
+  border-bottom: solid;
+  border-width: thin;
+  */
+  text-align: center; /* this is centering any div within */
+}
+.heading {
+  height: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.landing {
+  background-color: #ffcbcb;
+  width: 800px;
+  height: 575px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding: 100px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.cloud_1 {
+  position: absolute;
+  top: 175px;
+  left: 170px;
+}
+
+.cloud_2 {
+  position: absolute;
+  top: 125px;
+  right: 175px;
+}
+
+.stuff {
+  font-family: american typewriter, serif;
+  display: inline-block;
+  position: relative;
+}
+
+.sortof {
+  font-style: italic;
+}
+
+/* ############ END OF MASTHEAD ###########*/
+
+.section {
+  /*
+  border-bottom: solid;
+  border-width: thin;
+  */
+  text-align: center;
+  background-color: #ffcbcb;
+}
+
+.info {
+  width: 800px;
+  padding: 10px;
+  margin: auto;
+  line-height: 1.25;
+}
+
+#my_pic {
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.javascript {
+  float: left;
+  margin-right: 10px;
+}
+
+.python {
+  float: right;
+  margin-left: 10px;
+}
+
+.Front-End-Design {
+  text-align: left;
+}
+
+.Back-End-Development {
+  text-align: left;
+}
+
+.beginning {
+  text-align: center;
+  line-height: 1.5
+}
+
+/* FOOTER */
+
+.twitter {
+  display: inline-block;
+}
+
+.twitter_img {
+  float: left;
+  text-align: left;
+  margin: 10px
+}
+
+.twittertext {
+  display: inline-block;
+  padding: 5px;
+}
+
+.linkedin {
+  display: inline-block;
+  text-align: left;
+
+}
+
+.linkedin_img {
+  float: left;
+  margin: 10px;
+}
+
+.linkedintext {
+  display: inline-block;
+}
